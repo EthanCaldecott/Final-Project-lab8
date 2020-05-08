@@ -8,20 +8,25 @@ A=0
 C=0
 G=0
 T=0
-if A in s:
+if length of s is >0
+    if A in s:
     A = A+1
-if C in s:
+    if C in s:
     C= C+1
-if G in s:
+    if G in s:
     G= G+1
-if T in s:
+    if T in s:
     T= T+1
-else 
+else:
   Return A
   Return C
   Return G
   Return T
 
+if __name__ == '__main__':
+    s = 'ACGT' 
+    s = 'ACGTCAGTCAGG'
+    s = 'ACG'
 
 #Project Euler Question 12 (Sudo Code)
 
@@ -42,6 +47,9 @@ def Triangle Number(n)
   triangle number = ((n)(n+1)/2)
 
 Answer return is triangle number
+
+if __name__ == '__main__'
+    x = 500
 
 
 
