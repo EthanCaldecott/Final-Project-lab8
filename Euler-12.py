@@ -3,25 +3,27 @@
 
 #Project Rosalind : A Rapid Introduction to Molecular Biology (Sudo Code)
 
-Have a string(s)
+
 A=0
 C=0
 G=0
 T=0
-if length of s is >0
-    if A in s:
-    A = A+1
-    if C in s:
-    C= C+1
-    if G in s:
-    G= G+1
-    if T in s:
-    T= T+1
-else:
-  Return A
-  Return C
-  Return G
-  Return T
+for i in MolecularBio: 
+    if i == 'C':
+        C = C + 1
+for i in MolecularBio: 
+    if i == 'C':
+        C = C + 1
+for i in MolecularBio: 
+    if i == 'G':
+        G = G + 1
+for i in MolecularBio: 
+    if i == 'T':
+        T = T + 1
+print ("Number of A's: " + str(A))
+print ("Number of C's: " + str(C))
+print ("Number of G's: " + str(G))
+print ("Number of T's: " + str(T))
 
 if __name__ == '__main__':
     s = 'ACGT' 
